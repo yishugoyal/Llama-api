@@ -1,13 +1,15 @@
 {
   "name": "Llama-api",
   "version": "1.0.0",
-  "description": "Serverless LLaMA 3.1 (8B) API using Hugging Face and Cloudflare Workers",
+  "description": "Serverless LLaMA 3.1 (8B) API using Hugging Face, deployed on Vercel",
   "main": "api/index.js",
   "scripts": {
-    "start": "wrangler dev",
-    "deploy": "wrangler deploy"
+    "start": "vercel dev",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "build": "echo 'No build needed for serverless functions'"
   },
   "author": "Yishu Goyal",
-  "license": "Apache License 2.0",
+  "license": "Apache-2.0",
   "dependencies": {}
 }
