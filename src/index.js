@@ -38,7 +38,7 @@ export default {
       const hfResponse = await fetch("https://router.huggingface.co/v1/chat/completions", {
         method: "POST",
         headers: {
-          "Authorization": "Bearer ${env.HF_API_KEY}",
+          "Authorization": `Bearer ${env.HF_API_KEY}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify(payload),
