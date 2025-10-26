@@ -8,6 +8,6 @@
     "deploy": "wrangler publish"
   },
   "author": "Yishu Goyal",
-  "license": "All Rights Reserved",
+  "license": "Apache License 2.0",
   "dependencies": {}
 }
