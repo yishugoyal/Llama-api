@@ -1,3 +1,0 @@
-name = "LLama-api"
-main = "api/index.js"
-compatibility_date = "2025-10-26"
