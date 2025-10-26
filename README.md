@@ -24,11 +24,11 @@ A lightweight, **serverless API** for interacting with **Meta LLaMA 3.1 8B Instr
 llama3.1-api/
 │
 ├── src/
-│   └── index.js        # Main Cloudflare Worker API file
-├── .gitignore          # Ignore sensitive files and node_modules
-├── LICENSE             # All Rights Reserved license
-├── README.md           # Project documentation
-└── package.json        # Optional npm scripts and metadata
+│   └── index.js        
+├── .gitignore          
+├── LICENSE             
+├── README.md           
+└── package.json        
 ```
 
 ---
