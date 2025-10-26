@@ -3,7 +3,7 @@
 A lightweight, **serverless API** for interacting with **Meta LLaMA 3.1 8B Instruct** via the **Hugging Face Inference API**, deployed on **Cloudflare Workers**.
 
 > Developed by [Yishu Goyal](https://yishu.vercel.app)
-> 🚀 Live Demo: [API URL](https://your-worker-url/)
+> 🚀 Live Demo: [https://llama.yuvigoyal4.workers.dev/](https://llama.yuvigoyal4.workers.dev/?q=)
 
 ---
 
@@ -12,9 +12,9 @@ A lightweight, **serverless API** for interacting with **Meta LLaMA 3.1 8B Instr
 * ✅ Supports both `GET` and `POST` HTTP methods
 * 🧠 Integrates **LLaMA 3.1 8B Instruct** model via Hugging Face
 * ⚡ Serverless, fast, and scalable using **Cloudflare Workers**
-* 🔐 Secure API key management through **environment variables**
-* 💬 Returns **JSON-formatted** responses with developer tag
-* 🧩 Error handling with clear messages
+* 🔐 Secure API key management via **environment variables**
+* 💬 Returns **JSON-formatted** responses with developer signature
+* 🧩 Robust error handling with clear messages
 
 ---
 
@@ -24,11 +24,11 @@ A lightweight, **serverless API** for interacting with **Meta LLaMA 3.1 8B Instr
 llama3.1-api/
 │
 ├── src/
-│   └── index.js        
-├── .gitignore          
-├── LICENSE             
-├── README.md          
-└── package.json        
+│   └── index.js        # Main Cloudflare Worker API file
+├── .gitignore          # Ignore sensitive files and node_modules
+├── LICENSE             # All Rights Reserved license
+├── README.md           # Project documentation
+└── package.json        # Optional npm scripts and metadata
 ```
 
 ---
@@ -38,13 +38,13 @@ llama3.1-api/
 ### 1. GET Request
 
 ```
-https://your-worker-url/?q=Hello%20LLaMA
+https://llama.yuvigoyal4.workers.dev/?q=Hello%20LLaMA
 ```
 
 ### 2. POST Request
 
 ```bash
-curl -X POST https://your-worker-url/ \
+curl -X POST https://llama.yuvigoyal4.workers.dev/ \
   -H "Content-Type: application/json" \
   -d '{"q": "Explain quantum computing in simple terms"}'
 ```
@@ -54,6 +54,7 @@ curl -X POST https://your-worker-url/ \
 ```json
 {
   "reply": "Quantum computing uses qubits...",
+  "model":"Llama-3.1-8B",
   "dev": "YishuGoyalCGC"
 }
 ```
@@ -100,7 +101,7 @@ npx wrangler publish
 
 **All Rights Reserved © 2025 — Yishu Goyal**
 
-This project is owned by **Yishu Goyal**.
+This project is the intellectual property of **Yishu Goyal**.
 Unauthorized copying, modification, distribution, or use is strictly prohibited.
 
 ---
@@ -109,7 +110,7 @@ Unauthorized copying, modification, distribution, or use is strictly prohibited.
 
 **Yishu Goyal**
 
-* 🌐 [Portfolio](https://yishu-portfolio.vercel.app)
+* 🌐 [Portfolio](https://yishu.vercel.app)
 * 💼 [LinkedIn](https://linkedin.com/in/yishugoyal)
 * 💻 [GitHub](https://github.com/yishugoyal)
 * ✉️ [Email](mailto:yishugoyalbth@gmail.com)
@@ -122,3 +123,4 @@ Unauthorized copying, modification, distribution, or use is strictly prohibited.
 * Microservices backend for LLMs
 * Prototyping conversational AI tools
 * Educational / demo purposes
+
