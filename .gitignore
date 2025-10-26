@@ -1,0 +1,19 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build / distribution folder
+dist/
+build/
+
+# Log files
+*.log
+
+# Cloudflare config (if using Wrangler)
+wrangler.toml
+
+# Optional OS files
+.DS_Store
+Thumbs.db
