@@ -2,7 +2,7 @@
   "name": "Llama-api",
   "version": "1.0.0",
   "description": "Serverless LLaMA 3.1 (8B) API using Hugging Face and Cloudflare Workers",
-  "main": "src/index.js",
+  "main": "api/index.js",
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler deploy"
