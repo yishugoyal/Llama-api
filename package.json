@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "wrangler publish"
+    "deploy": "wrangler deploy"
   },
   "author": "Yishu Goyal",
   "license": "Apache License 2.0",
