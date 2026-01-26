@@ -25,7 +25,7 @@ export default {
 
       // Payload for Hugging Face API
       const payload = {
-        model: "meta-llama/Llama-3.1-8B-Instruct:fireworks-ai",
+        model: "meta-llama/Llama-3.1-8B-Instruct:novita",
         messages: [
           {
             role: "user",
