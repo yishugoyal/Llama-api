@@ -3,7 +3,7 @@
 A lightweight, **serverless API** for interacting with **Meta LLaMA 3.1 8B Instruct** via the **Hugging Face Inference API**, deployed on **Cloudflare Workers**.
 
 > Developed by [Yishu Goyal](https://yishu.vercel.app)
-> 🚀 Live Demo: [https://llama.yuvigoyal4.workers.dev/](https://llama.yuvigoyal4.workers.dev/?q=)
+> 🚀 Live Demo: [https://llama.yuvigoyal4.workers.dev/](https://llama.yishugoyal.workers.dev/?q=) 
 
 ---
 
